@@ -143,12 +143,17 @@
     breakpoints: {
       280: { slidesPerView: 1 },
       386: { slidesPerView: 1 },
-      576: { slidesPerView: 2 },
-      768: { slidesPerView: 3 },
-      992: { slidesPerView: 3 },
+      576: { slidesPerView: 1 },
+      768: { slidesPerView: 1 },
+      992: { slidesPerView: 1 },
       1200: { slidesPerView: 4 },
       1400: { slidesPerView: 4 },
     },
+    autoplay: {
+      delay: 3000, // Autoplay delay in milliseconds
+      disableOnInteraction: false, // Disable autoplay on user interaction
+    },
+    loop: true
   });
   var swiper = new Swiper(".banner2-slider", {
     slidesPerView: 1,
