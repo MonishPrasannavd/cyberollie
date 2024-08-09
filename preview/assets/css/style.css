@@ -9565,10 +9565,14 @@ footer .footer-btm .social-area li a:hover i {
 .banner3-section .banner3-slider {
     height: 100%
 }
-
+.banner3-section .banner3-slider .swiper-wrapper{
+    justify-content: end;
+}
 .banner3-section .banner3-slider .swiper-wrapper .swiper-slide {
     height: 100%
 }
+
+
 
 .eg-card3 {
     display: flex;
