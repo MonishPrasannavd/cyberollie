@@ -2486,13 +2486,13 @@ body.tt-magic-cursor #magic-cursor {
 
 .header-area.style-2 .header-logo img {
     width: 214px;
-    max-width: unset
+    max-width: unset;
 }
 
 @media(max-width:1399px) {
     .header-area.style-2 .header-logo img {
-        width: unset;
-        max-width: 60%;
+        width: 214px;
+        max-width: unset;
     }
 }
 
@@ -4753,6 +4753,7 @@ body.tt-magic-cursor #magic-cursor {
     .banner1-section .banner-top .banner-content h1 {
         font-size: 60px
     }
+
 }
 
 @media(max-width:991px) {
@@ -18199,7 +18200,9 @@ footer .footer-btm .social-area li a:hover i {
 .error-section .error-wrapper .error-content .back-btn .primary-btn1 i {
     font-size: 18px
 }
-
+.logo-img{
+    width: 50%;
+}
 /* .me-100{
  margin-right:var(--right-margin);
 } */
