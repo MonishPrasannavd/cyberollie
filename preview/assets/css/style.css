@@ -8654,6 +8654,9 @@ footer .footer-btm .social-area li a:hover i {
     -moz-columns: 2;
     columns: 2
 }
+.margintop{
+    margin-top: 300px;
+}
 
 @media(max-width:576px) {
     .why-choose-section .choose-content .sulution-approach ul {
@@ -9576,6 +9579,9 @@ footer .footer-btm .social-area li a:hover i {
     height: 100%
 }
 
+.project-slider .swiper-wrapper{
+    justify-content: center !important;
+}
 .eg-main::before {
     content: "" ;
     height: 100% ;
