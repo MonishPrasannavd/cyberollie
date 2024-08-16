@@ -8285,6 +8285,12 @@ footer .footer-btm .social-area li a:hover i {
     grid-template-columns: 10% 25% 45% 20%
 }
 
+.cover-section2 .sevices-wrap .services-page{
+    display: grid;
+    grid-template-columns:10% 25% 70% ;
+
+}
+
 @media(max-width:1399px) {
     .cover-section2 .sevices-wrap .single-services {
         grid-template-columns: 13% 30% 37% 20%
