@@ -16848,10 +16848,16 @@ footer .footer-btm .social-area li a:hover i {
     position: sticky;
     top: 50px
 }
+.mobile-career{
+    display: none !important;
+}
 
 @media(max-width:991px) {
     .apply-position-section .job-summary-area {
         padding: 10px
+    }
+    .mobile-career{
+        display: block !important;
     }
 }
 
