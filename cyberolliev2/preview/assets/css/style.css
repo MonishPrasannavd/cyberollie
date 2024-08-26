@@ -10099,7 +10099,7 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .eg-card4.two .card-content::before {
-    content: url(../img/inner-pages/Vector/portfolio-single-content-bg.svg);
+    /* content: url(../img/inner-pages/Vector/portfolio-single-content-bg.svg); */
     position: absolute;
     top: 50%;
     left: 50%;
