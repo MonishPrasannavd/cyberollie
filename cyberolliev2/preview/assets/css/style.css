@@ -7,7 +7,8 @@
     --white-color: #fff;
     --paragraph-color: #566064;
     --primary1-color: #2E448D;
-    --primary-color:#FF6558;
+    /* --primary-color:#FF6558; */
+    --primary-color:linear-gradient(19deg, #66414d 20%, #7B5299 100%);
     --right-margin:15rem;
 }
 
@@ -7025,7 +7026,7 @@ body.tt-magic-cursor #magic-cursor {
 
 footer {
     /* background-color: #0a141d; */
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     padding-top: 100px
 }
 
@@ -7652,7 +7653,7 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .about-section2 .about-top {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     /* background-color: #0d1720; */
     padding: 100px 0
 }
