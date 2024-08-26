@@ -7372,10 +7372,10 @@ footer .footer-btm .copyright-area {
 }
 
 footer .footer-btm .copyright-area p {
-    /* color: #cacaca; */
-    color: var(--primary1-color);
+    color: #cacaca;
+    /* color: var(--primary1-color); */
     font-family: var(--font-montserrat);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400
 }
 
