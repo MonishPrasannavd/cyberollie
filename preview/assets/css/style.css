@@ -15124,18 +15124,18 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .mission-section .mission-content-wrap .mission-content-top {
-    padding-bottom: 110px
+    padding-bottom: 0px
 }
 
 @media(min-width:1400px) and (max-width:1599px) {
     .mission-section .mission-content-wrap .mission-content-top {
-        padding-bottom: 90px
+        padding-bottom: 0px
     }
 }
 
 @media(max-width:1399px) {
     .mission-section .mission-content-wrap .mission-content-top {
-        padding-bottom: 70px
+        padding-bottom: 0px
     }
 }
 
