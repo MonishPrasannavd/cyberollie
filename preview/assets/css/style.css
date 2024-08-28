@@ -7953,14 +7953,14 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 
-.tastimonial-wrap2.two .pagination-wrap .pagination-3 {
+/* .tastimonial-wrap2.two .pagination-wrap .pagination-3 {
     position: relative;
     left: unset;
     width: unset;
     display: flex;
     flex-direction: column;
     gap: 20px
-}
+} */
 
 .tastimonial-wrap2.two .pagination-wrap .pagination-3 .swiper-pagination-bullet {
     height: 14px;
