@@ -168,10 +168,11 @@
     slidesPerView: 1,
     speed: 1500,
     spaceBetween: 25,
+    loop: true,
     effect: "fade",
     fadeEffect: { crossFade: true },
     navigation: { nextEl: ".next-10", prevEl: ".prev-10" },
-    autoplay: { delay: 3000, disableOnInteraction: true }
+    // autoplay: { delay: 3000, disableOnInteraction: true }
   });
   var swiper = new Swiper(".banner4-slider", {
     slidesPerView: 1,
