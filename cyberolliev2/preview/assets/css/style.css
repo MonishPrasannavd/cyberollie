@@ -817,7 +817,7 @@ body.tt-magic-cursor #magic-cursor {
     font-size: 15px;
     font-weight: 500;
     background-color: var(--white-color);
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--white-color);
     display: inline-flex;
     align-items: center;
     line-height: 1;
@@ -11736,11 +11736,11 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .contact-form-area.two {
-    background-color: var(--white-color)
+    background-color: var(--title-color)
 }
 
 .contact-form-area.two .form-inner label {
-    color: var(--title-color)
+    color: var(--paragraph-color)
 }
 
 .contact-form-area.two .form-inner input,
@@ -11801,7 +11801,8 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 
-.contact-form-area.three .upload-file-area h6 {
+.contact-form-area.three .upload-file-area h6,
+.contact-form-area.two .upload-file-area h6 {
     color: var(--title-color);
     font-family: var(--font-montserrat);
     font-size: 14px;
@@ -11810,7 +11811,8 @@ footer .footer-btm .social-area li a:hover i {
     margin-bottom: 8px
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field {
+.contact-form-area.three .upload-file-area .custom-upload-field,
+.contact-form-area.two .upload-file-area .custom-upload-field {
     border: 1px solid #eee;
     background-color: var(--white-color);
     height: 50px;
@@ -11818,7 +11820,8 @@ footer .footer-btm .social-area li a:hover i {
     align-items: center
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field .upload-pdf-icon {
+.contact-form-area.three .upload-file-area .custom-upload-field .upload-pdf-icon, 
+.contact-form-area.two .upload-file-area .custom-upload-field .upload-pdf-icon {
     width: 60px;
     display: flex;
     align-items: center;
@@ -11827,12 +11830,14 @@ footer .footer-btm .social-area li a:hover i {
     height: 100%
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload {
+.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload,
+.contact-form-area.two .upload-file-area .custom-upload-field .custom-upload {
     padding-left: 30px;
     color: var(--paragraph-color)
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button {
+.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button,
+.contact-form-area.two .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button {
     display: none
 }
 
@@ -12066,18 +12071,18 @@ footer .footer-btm .social-area li a:hover i {
     display: flex;
     align-items: start;
     gap: 20px;
-    padding: 275px 0 150px
+    padding: 50px 0 50px
 }
 
 @media(max-width:1399px) {
     .banner5-section .banner-wrapper {
-        padding: 245px 0 120px
+        padding: 50px 0 70px
     }
 }
 
 @media(max-width:991px) {
     .banner5-section .banner-wrapper {
-        padding: 150px 0 80px
+        padding: 50px 0 80px
     }
 }
 
@@ -18269,6 +18274,29 @@ footer .footer-btm .social-area li a:hover i {
 .logo-img{
     width: 50%;
 }
+.nav{
+    justify-content:start; 
+    margin-bottom: 2rem !important;
+    gap: 15px;
+ }
+ .nav-link{
+     padding: 3px 1rem;
+     color: var(--white-color);
+     font-size: 17px;
+ }
+ .nav-link:focus, .nav-link:hover{
+    color: var(--white-color);
+    border:1px solid var(--white-color);
+    border-radius: 20px;
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+     color: var(--white-color);
+     background-color: transparent;
+     border: 1px solid var(--white-color);
+     border-radius: 20px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+ }
 /* .me-100{
  margin-right:var(--right-margin);
 } */
