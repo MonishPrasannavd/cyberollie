@@ -11797,7 +11797,8 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 
-.contact-form-area.three .upload-file-area h6 {
+.contact-form-area.three .upload-file-area h6, 
+.contact-form-area.two .upload-file-area h6 {
     color: var(--title-color);
     font-family: var(--font-montserrat);
     font-size: 14px;
@@ -11806,7 +11807,8 @@ footer .footer-btm .social-area li a:hover i {
     margin-bottom: 8px
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field {
+.contact-form-area.three .upload-file-area .custom-upload-field,
+.contact-form-area.two .upload-file-area .custom-upload-field {
     border: 1px solid #eee;
     background-color: var(--white-color);
     height: 50px;
@@ -11814,7 +11816,8 @@ footer .footer-btm .social-area li a:hover i {
     align-items: center
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field .upload-pdf-icon {
+.contact-form-area.three .upload-file-area .custom-upload-field .upload-pdf-icon,
+.contact-form-area.two .upload-file-area .custom-upload-field .upload-pdf-icon {
     width: 60px;
     display: flex;
     align-items: center;
@@ -11823,12 +11826,14 @@ footer .footer-btm .social-area li a:hover i {
     height: 100%
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload {
+.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload,
+.contact-form-area.two .upload-file-area .custom-upload-field .custom-upload {
     padding-left: 30px;
-    color: var(--paragraph-color)
+    color: var(--white-color)
 }
 
-.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button {
+.contact-form-area.three .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button,
+.contact-form-area.two .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button {
     display: none
 }
 
@@ -18264,6 +18269,29 @@ footer .footer-btm .social-area li a:hover i {
 }
 .logo-img{
     width: 50%;
+}
+.nav{
+   justify-content:start; 
+   margin-bottom: 2rem !important;
+   gap: 15px;
+}
+.nav-link{
+    padding: 3px 1rem;
+    color: var(--white-color);
+    font-size: 17px;
+}
+.nav-link:focus, .nav-link:hover{
+   color: var(--white-color);
+   border:1px solid var(--white-color);
+   border-radius: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: var(--white-color);
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 /* .me-100{
  margin-right:var(--right-margin);
