@@ -714,7 +714,18 @@ body.tt-magic-cursor #magic-cursor {
     width: 100%;
     gap: 25px
 }
-
+.section-title10{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1066px;
+    width: 100%;
+    gap: 25px;
+}
+.section-title10 h5{
+    font-weight: 300;
+}
 @media(max-width:991px) {
     .section-title1 {
         flex-wrap: wrap;
@@ -8279,10 +8290,13 @@ footer .footer-btm .social-area li a:hover i {
 .cover-section2 .sevices-wrap .single-services {
     transition: .5s;
     border: 1px solid rgba(13, 23, 32, .08);
-    border-top: none;
+    border-bottom: none;
     position: relative;
     display: grid;
     grid-template-columns: 10% 25% 45% 20%
+}
+.single-services-border{
+    border-bottom: 1px solid rgba(13, 23, 32, .08) !important;
 }
 
 .cover-section2 .sevices-wrap .services-page{
@@ -11718,11 +11732,11 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .contact-form-area.two {
-    background-color: var(--white-color)
+    background-color: var(--title-color)
 }
 
 .contact-form-area.two .form-inner label {
-    color: var(--title-color)
+    color: var(--paragraph-color)
 }
 
 .contact-form-area.two .form-inner input,
@@ -12048,18 +12062,18 @@ footer .footer-btm .social-area li a:hover i {
     display: flex;
     align-items: start;
     gap: 20px;
-    padding: 275px 0 150px
+    padding: 50px 0 50px
 }
 
 @media(max-width:1399px) {
     .banner5-section .banner-wrapper {
-        padding: 245px 0 120px
+        padding: 50px 0 70px
     }
 }
 
 @media(max-width:991px) {
     .banner5-section .banner-wrapper {
-        padding: 150px 0 80px
+        padding: 50px 0 80px
     }
 }
 
