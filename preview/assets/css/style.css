@@ -7379,6 +7379,10 @@ footer .footer-btm .copyright-area p a {
     color: var(--white-color);
     transition: .35s
 }
+footer .footer-btm .copyright-area p a {
+    color: var(--white-color);
+    transition: .35s
+}
 
 footer .footer-btm .copyright-area p a:hover {
     color: var(--primary-color);
@@ -16715,6 +16719,9 @@ footer .footer-btm .social-area li a:hover i {
     margin-bottom: 0;
     line-height: 1
 }
+.title-and-view-btn{
+    padding-top: 10px;
+}
 
 .contact-page .single-location .title-and-view-btn a {
     color: var(--primary-color);
@@ -18293,6 +18300,17 @@ footer .footer-btm .social-area li a:hover i {
     border-radius: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+.contact-heading{
+    color: var(--white-color) !important;
+    font-family: var(--font-marcellus) !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+}
+.contact-page{
+    position:relative;
+    bottom: 16%;
 }
 /* .me-100{
  margin-right:var(--right-margin);
