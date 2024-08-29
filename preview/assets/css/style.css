@@ -1180,7 +1180,8 @@ body.tt-magic-cursor #magic-cursor {
 
 .topbar-area.style-2 .topbar-right li p svg {
     fill: var(--white-color);
-    transition: .35s
+    transition: .35s;
+    margin-bottom: 5px;
 }
 
 .topbar-area.style-2 .topbar-right li a:hover {
@@ -7727,7 +7728,7 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 
-.about-section2 .about-bottom .about-counter-area {
+/* .about-section2 .about-bottom .about-counter-area {
     border-bottom: 1px solid #eee
 }
 
@@ -7842,9 +7843,9 @@ footer .footer-btm .social-area li a:hover i {
     font-family: var(--font-montserrat);
     font-size: 15px;
     font-weight: 500
-}
+} */
 
-.testimonial-section2.two {
+/* .testimonial-section2.two {
     background-color: #f4f9fd;
     padding: 130px 0
 }
@@ -7953,14 +7954,14 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 
-/* .tastimonial-wrap2.two .pagination-wrap .pagination-3 {
+.tastimonial-wrap2.two .pagination-wrap .pagination-3 {
     position: relative;
     left: unset;
     width: unset;
     display: flex;
     flex-direction: column;
     gap: 20px
-} */
+}
 
 .tastimonial-wrap2.two .pagination-wrap .pagination-3 .swiper-pagination-bullet {
     height: 14px;
@@ -8270,7 +8271,7 @@ footer .footer-btm .social-area li a:hover i {
     font-family: var(--font-marcellus);
     font-size: 16px;
     font-weight: 400
-}
+} */
 
 .cover-section2 {
     background-color: #dfebf7;
@@ -8903,7 +8904,7 @@ footer .footer-btm .social-area li a:hover i {
     transform: translateY(-50%)
 }
 
-.people-card2 .people-content .name-deg {
+/* .people-card2 .people-content .name-deg {
     border: 1px solid #eee;
     padding: 22px 30px
 }
@@ -9157,9 +9158,9 @@ footer .footer-btm .social-area li a:hover i {
     .people-section2.two {
         padding: 70px 0
     }
-}
+} */
 
-.client-section .client-logo-wrap {
+/* .client-section .client-logo-wrap {
     background: #f4f9fd;
     display: flex;
     padding: 80px
@@ -9233,7 +9234,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .client-section .client-logo-wrap .js-marquee-wrapper .js-marquee svg {
     fill: #596977
-}
+} */
 
 .blog-wrap:nth-child(even) .blog-img {
     width: 100%
