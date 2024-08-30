@@ -11627,6 +11627,9 @@ footer .footer-btm .social-area li a:hover i {
     .contact-form-area {
         padding: 60px 70px
     }
+    .contect-section6 .contact-form-area{
+        padding: 40px 50px;
+    }
 }
 
 @media(max-width:1399px) {
@@ -18350,6 +18353,41 @@ footer .footer-btm .social-area li a:hover i {
     max-width: 100%;
     align-items: center;
 }
+.contact-form-area .two{
+    text-align: center;
+    align-content: center;
+}
+.contact-form-img svg{
+   fill: var(--white-color) !important;
+}
+.contact-form-text h3{
+    font-size: 20px;
+    color: var(--white-color);
+    margin-top: 10px;
+}
+.contact-form-text p{
+    color:#F4F9FD;
+}
+.contact-form-text .primary-btn1{
+    padding: 15px 35px;
+}
+.modal-body{
+    padding: 3px;
+}
+.modal-header{
+    padding: 0px;
+    /* background-color: var(--title-color); */
+    background-color: #F4F9FD;
+}
+.modal-header .modal-title{
+    color: var(--title-color);
+}
+.modal-header .btn .bi::before, [class^=bi-]::before, [class*=" bi-"]::before{
+    font-size: 20px;
+    vertical-align: -.25em;
+}
+
+
 /* .me-100{
  margin-right:var(--right-margin);
 } */
