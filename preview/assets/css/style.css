@@ -11627,6 +11627,9 @@ footer .footer-btm .social-area li a:hover i {
     .contact-form-area {
         padding: 60px 70px
     }
+    .contect-section6 .contact-form-area{
+        padding: 40px 50px;
+    }
 }
 
 @media(max-width:1399px) {
@@ -18357,6 +18360,27 @@ footer .footer-btm .social-area li a:hover i {
 .contact-form-img svg{
    fill: var(--white-color) !important;
 }
+.contact-form-text h3{
+    font-size: 20px;
+    color: var(--white-color);
+    margin-top: 10px;
+}
+.contact-form-text p{
+    color:#F4F9FD;
+}
+.contact-form-text .primary-btn1{
+    padding: 15px 35px;
+}
+
+.modal-header{
+    padding: 0px;
+    /* background-color: var(--title-color); */
+    background-color: #F4F9FD;
+}
+.modal-header .modal-title{
+    color: var(--title-color);
+}
+
 
 /* .me-100{
  margin-right:var(--right-margin);
