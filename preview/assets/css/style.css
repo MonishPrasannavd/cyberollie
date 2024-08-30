@@ -18350,14 +18350,6 @@ footer .footer-btm .social-area li a:hover i {
     max-width: 100%;
     align-items: center;
 }
-.contact-form-area .two{
-    text-align: center;
-    align-content: center;
-}
-.contact-form-img svg{
-   fill: var(--white-color) !important;
-}
-
 /* .me-100{
  margin-right:var(--right-margin);
 } */
