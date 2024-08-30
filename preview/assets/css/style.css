@@ -1181,7 +1181,7 @@ body.tt-magic-cursor #magic-cursor {
 .topbar-area.style-2 .topbar-right li p svg {
     fill: var(--white-color);
     transition: .35s;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .topbar-area.style-2 .topbar-right li a:hover {
@@ -18386,7 +18386,18 @@ footer .footer-btm .social-area li a:hover i {
     font-size: 20px;
     vertical-align: -.25em;
 }
-
+.footer-top .contact-page .single-location .title-and-view-btn a{
+    color: #cacaca;
+}
+.footer-top .contact-page .single-location .title-and-view-btn a svg{
+    fill: #cacaca;
+}
+.footer-top .contact-page .single-location .title-and-view-btn a:hover{
+    color: #fff;
+}
+.footer-top .contact-page .single-location .title-and-view-btn a:hover svg{
+    fill: #fff;
+}
 
 /* .me-100{
  margin-right:var(--right-margin);
