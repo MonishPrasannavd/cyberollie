@@ -14087,7 +14087,7 @@ footer .footer-btm .social-area li a:hover i {
     background-image: url(../img/home6/contact-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 0
+    padding: 50px 0
 }
 
 .contect-section6 .section-title1 h2 {
@@ -18342,6 +18342,13 @@ footer .footer-btm .social-area li a:hover i {
 }
 .footer-top .contact-page .single-location ul li:hover .icon svg {
     fill: #fff;
+}
+.contect-section6 .section-title1 h2{
+    max-width: 100%;
+}
+.contect-section6 .section-title1{
+    max-width: 100%;
+    align-items: center;
 }
 /* .me-100{
  margin-right:var(--right-margin);
