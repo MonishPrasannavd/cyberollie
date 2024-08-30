@@ -18313,15 +18313,15 @@ footer .footer-btm .social-area li a:hover i {
     bottom: 16%;
 }
 /* .footer-top .single-location ul li .icon svg {
-    color: #FFF;
-}
+    fill: #fff;
+} */
 .footer-top .single-location ul li .info a{
     color: #cacaca;
 }
 .footer-top .single-location ul li .info a:hover{
     color: #FFF;
 }
-.footer-top .contact-page .single-location svg{
+/* .footer-top .contact-page .single-location svg{
     fill: #cacaca !important;
 }
 .footer-top .contact-page .single-location ul li .icon svg:hover {
@@ -18335,6 +18335,14 @@ footer .footer-btm .social-area li a:hover i {
     transition: .35s;
     fill: #DFEBF7 !important;
 } */
+
+.footer-top .contact-page .single-location ul li .icon svg {
+    transition: .35s;
+    fill: #fff;
+}
+.footer-top .contact-page .single-location ul li:hover .icon svg {
+    fill: #fff;
+}
 .contect-section6 .section-title1 h2{
     max-width: 100%;
 }
