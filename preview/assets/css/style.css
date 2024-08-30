@@ -18371,7 +18371,9 @@ footer .footer-btm .social-area li a:hover i {
 .contact-form-text .primary-btn1{
     padding: 15px 35px;
 }
-
+.modal-body{
+    padding: 3px;
+}
 .modal-header{
     padding: 0px;
     /* background-color: var(--title-color); */
@@ -18379,6 +18381,10 @@ footer .footer-btm .social-area li a:hover i {
 }
 .modal-header .modal-title{
     color: var(--title-color);
+}
+.modal-header .btn .bi::before, [class^=bi-]::before, [class*=" bi-"]::before{
+    font-size: 20px;
+    vertical-align: -.25em;
 }
 
 
