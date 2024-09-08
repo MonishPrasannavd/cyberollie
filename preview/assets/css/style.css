@@ -1181,7 +1181,7 @@ body.tt-magic-cursor #magic-cursor {
 .topbar-area.style-2 .topbar-right li p svg {
     fill: var(--white-color);
     transition: .35s;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .topbar-area.style-2 .topbar-right li a:hover {
@@ -7251,7 +7251,7 @@ footer .footer-menu-wrap .footer-logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(217, 217, 217, .08)
+    background-color: rgba(217, 217, 217, .08);
 }
 
 footer .footer-menu-wrap .footer-logo img {
@@ -18315,30 +18315,12 @@ footer .footer-btm .social-area li a:hover i {
     position:relative;
     bottom: 16%;
 }
-/* .footer-top .single-location ul li .icon svg {
-    fill: #fff;
-} */
 .footer-top .single-location ul li .info a{
     color: #cacaca;
 }
 .footer-top .single-location ul li .info a:hover{
     color: #FFF;
 }
-/* .footer-top .contact-page .single-location svg{
-    fill: #cacaca !important;
-}
-.footer-top .contact-page .single-location ul li .icon svg:hover {
-    transition: .35s;
-    fill: #DFEBF7 !important;
-}
-.footer-top .contact-page .single-location ul li .info a:hover {
-    color: #DFEBF7 !important ;
-}
-.con-con:hover{
-    transition: .35s;
-    fill: #DFEBF7 !important;
-} */
-
 .footer-top .contact-page .single-location ul li .icon svg {
     transition: .35s;
     fill: #fff;
@@ -18383,11 +18365,117 @@ footer .footer-btm .social-area li a:hover i {
     color: var(--title-color);
 }
 .modal-header .btn .bi::before, [class^=bi-]::before, [class*=" bi-"]::before{
-    font-size: 20px;
+    font-size: 20px !important;
     vertical-align: -.25em;
 }
+.footer-top .contact-page .single-location .title-and-view-btn a{
+    color: #cacaca;
+}
+.footer-top .contact-page .single-location .title-and-view-btn a svg{
+    fill: #cacaca;
+}
+.footer-top .contact-page .single-location .title-and-view-btn a:hover{
+    color: #fff;
+}
+.footer-top .contact-page .single-location .title-and-view-btn a:hover svg{
+    fill: #fff;
+}
+@media(max-width:576px){
+    .dropdown1{
+        display: block !important;
+    }
+    .dropdown2{
+        display: none !important;
+    }
+    footer .footer-top .contact-page {
+        position: relative;
+        bottom: 8%;
+    }
+    footer {
+        background-color: #0a141d;
+        padding-top: 75px;
+    }
+    footer .footer-menu-wrap .footer-logo {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+} 
+@media(min-width:576px){
+    .dropdown1{
+        display: none !important;
+    }
+} 
+.accordion{
+    --bs-accordion-bg: transparent !important;
+    border: none !important;
+    color: #FFF !important;
+    margin: 0px !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    border: none !important;
+    color: #FFF !important;
+    box-shadow: none !important;
+    color: var(--white-color);
+    font-family: var(--font-marcellus);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.accordion-button:focus{
+    border: none !important;
+    color: #FFF !important;
+    box-shadow: none !important;
+    color: var(--white-color);
+    font-family: var(--font-marcellus);
+    /* font-size: 30px; */
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.accordion-button{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color: #fff !important ;
+    font-size: 30px;
+    font-family: var(--font-marcellus);
+    font-weight: 400;
+    justify-content: space-between;
+}
+.accordion-button::after{
+    display: none !important;
+}
+.accordion-item{
+    color: #FFF !important;
+    border: none !important;
+}
+footer .accordion .menu-container ul li a {
+    color: #cacaca;
+    font-family: var(--font-montserrat);
+    font-size: 15px;
+    font-weight: 500;
+    transition: .35s;
+    margin-top: 10px;
+}
+footer .accordion .menu-container ul li {
+    line-height: 1;
+    margin-bottom: 22px;
+    padding-left: 5px;
+}
 
+footer .accordion .menu-container ul li a:hover {
+    color: var(--white-color)
+}
 
+.span1{
+    margin-bottom: 6px;
+}
+.span2{
+    margin-top: 10px;
+}
+.accordion-header button span i .bi::before, [class^=bi-]::before, [class*=" bi-"]::before{
+    font-size: 17px !important;
+    vertical-align: -.25em;
+}
 /* .me-100{
  margin-right:var(--right-margin);
 } */
