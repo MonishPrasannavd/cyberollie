@@ -460,8 +460,8 @@
             borderWidth: 0,
             opacity: 0.2,
             backgroundColor: "#CCC",
-            width: "100px",
-            height: "100px",
+            width: "50px",
+            height: "50px",
           });
         })
         .on("mouseleave", function () {
