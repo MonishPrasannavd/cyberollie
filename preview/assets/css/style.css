@@ -9460,6 +9460,9 @@ footer .footer-btm .social-area li a:hover i {
     .contact-section2 .contact-content h2 {
         font-size: 55px
     }
+    .contact-section2 .banner-btn a {
+        margin-left: 45px;
+    }
 }
 
 @media(max-width:767px) {
