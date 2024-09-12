@@ -9460,6 +9460,9 @@ footer .footer-btm .social-area li a:hover i {
     .contact-section2 .contact-content h2 {
         font-size: 55px
     }
+    .contact-section2 .banner-btn a {
+        margin-left: 45px;
+    }
 }
 
 @media(max-width:767px) {
@@ -9482,8 +9485,8 @@ footer .footer-btm .social-area li a:hover i {
     position: relative;
     line-height: 1;
     transition: .5s;
-    height: 178px;
-    width: 178px;
+    height: 90px;
+    width: 150px;
     display: inline-flex;
     align-items: center;
     justify-content: center
@@ -9502,18 +9505,10 @@ footer .footer-btm .social-area li a:hover i {
     transition: .5s
 }
 
-.contact-section2 .banner-btn a .bg svg path:first-child {
-    stroke: var(--primary-color);
-    fill: none
-}
-
-.contact-section2 .banner-btn a .bg svg path:last-child {
-    fill: var(--white-color)
-}
 
 .contact-section2 .banner-btn a .btn-content {
     transition: .5s;
-    color: var(--title-color);
+    color: var(--white-color);
     text-align: center;
     font-family: var(--font-montserrat);
     font-size: 15px;
@@ -9522,30 +9517,34 @@ footer .footer-btm .social-area li a:hover i {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .contact-section2 .banner-btn a .btn-content svg {
-    fill: var(--title-color);
-    margin-bottom: 15px;
-    transition: .5s
+    fill: var(--white-color);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: transform 0.7s ease, fill 0.7s ease;
+
 }
 
-.contact-section2 .banner-btn a:hover .bg svg path:first-child {
+.contact-section2 .banner-btn a.bg svg path:first-child:hover  {
     stroke: var(--primary-color);
-    fill: none
+    fill: none;
 }
 
 .contact-section2 .banner-btn a:hover .bg svg path:last-child {
-    fill: var(--primary-color)
+    fill: var(--primary-color);
 }
 
 .contact-section2 .banner-btn a:hover .btn-content {
-    color: var(--white-color)
+    color: var(--white-color);
 }
 
 .contact-section2 .banner-btn a:hover .btn-content svg {
-    fill: var(--white-color)
+    fill:var(--white-color) ;
+    transform: rotate(45deg);
 }
 
 .banner3-section {
