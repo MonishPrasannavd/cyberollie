@@ -9544,7 +9544,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .contact-section2 .banner-btn a:hover .btn-content svg {
     fill:var(--white-color) ;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(1px) translateX(4px);
 }
 
 .banner3-section {
@@ -18475,6 +18475,8 @@ footer .accordion .menu-container ul li a:hover {
     font-size: 17px !important;
     vertical-align: -.25em;
 }
-/* .me-100{
- margin-right:var(--right-margin);
-} */
+::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+  }
+  
