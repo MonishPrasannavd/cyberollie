@@ -792,7 +792,7 @@ body.tt-magic-cursor #magic-cursor {
     }
 }
 
-.section-title2 h2 {
+/* .section-title2 h2 {
     color: var(--title-color);
     font-family: var(--font-marcellus);
     font-size: 75px;
@@ -818,7 +818,7 @@ body.tt-magic-cursor #magic-cursor {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px
-}
+} */
 
 .primary-btn1 {
     color: var(--white-color);
@@ -1022,7 +1022,7 @@ body.tt-magic-cursor #magic-cursor {
     border: 1px solid rgba(217, 217, 217, .9019607843)
 }
 
-.slider-btn-group .slider-btn svg {
+/* .slider-btn-group .slider-btn svg {
     fill: var(--primary-color);
     transition: .4s
 }
@@ -1044,7 +1044,7 @@ body.tt-magic-cursor #magic-cursor {
     max-width: 100px;
     min-width: 100px;
     width: 100%
-}
+} */
 
 .topbar-area {
     display: flex;
@@ -9544,7 +9544,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .contact-section2 .banner-btn a:hover .btn-content svg {
     fill:var(--white-color) ;
-    transform: rotate(45deg) translateY(1px) translateX(4px);
+    transform: rotate(45deg);
 }
 
 .banner3-section {
@@ -11747,11 +11747,15 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .contact-form-area.two .form-inner input,
-.contact-form-area.two .form-inner textarea {
+.contact-form-area.two .form-inner textarea,
+.contact-form-area.two .form-inner select{
     background: var(--white-color);
     border: 1px solid #eee;
     color: var(--paragraph-color);
     border-radius: 0
+}
+.contact-form-area.two .form-inner select{
+    padding: 0.755rem 20px;
 }
 
 .contact-form-area.two .form-inner input::-moz-placeholder,
@@ -18475,8 +18479,6 @@ footer .accordion .menu-container ul li a:hover {
     font-size: 17px !important;
     vertical-align: -.25em;
 }
-::-webkit-scrollbar {
-    width: 5px;
-    display: none;
-  }
-  
+/* .me-100{
+ margin-right:var(--right-margin);
+} */
