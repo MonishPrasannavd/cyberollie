@@ -16011,7 +16011,7 @@ footer .footer-btm .social-area li a:hover i {
     object-fit: cover
 }
 
-.pagination-area {
+/* .pagination-area {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16063,7 +16063,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .pagination-area .paginations-button a svg {
     fill: var(--title-color)
-}
+} */
 
 .people-card-section .people-card-top-area {
     border-bottom: 1px solid #eee;
