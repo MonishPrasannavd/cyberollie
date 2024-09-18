@@ -194,49 +194,49 @@
     pagination: { el: ".event-fractional-pagination", type: "fraction" },
     navigation: { nextEl: ".next-4", prevEl: ".prev-4" },
   });
-  // var swiper = new Swiper(".testimonial-slider", {
-  //   slidesPerView: 1,
-  //   speed: 1500,
-  //   spaceBetween: 25,
-  //   loop: true,
-  //   effect: "fade",
-  //   fadeEffect: { crossFade: true },
-  //   autoplay: { delay: 4000, disableOnInteraction: false },
-  //   pagination: { el: ".franctional-pagi1", type: "fraction" },
-  //   navigation: { nextEl: ".next-2", prevEl: ".prev-2" },
-  // });
-  // var swiper = new Swiper(".testimonial-slider2", {
-  //   slidesPerView: 1,
-  //   speed: 1500,
-  //   spaceBetween: 25,
-  //   effect: "fade",
-  //   fadeEffect: { crossFade: true },
-  //   autoplay: { delay: 2500, disableOnInteraction: false },
-  //   pagination: { el: ".franctional-pagi2", type: "fraction" },
-  //   navigation: { nextEl: ".next-3", prevEl: ".prev-3" },
-  // });
-  // var swiper = new Swiper(".testimonial-slider3", {
-  //   slidesPerView: 1,
-  //   speed: 1500,
-  //   spaceBetween: 25,
-  //   loop: true,
-  //   effect: "fade",
-  //   fadeEffect: { crossFade: true },
-  //   autoplay: { delay: 2500, disableOnInteraction: false },
-  //   pagination: { el: ".pagination-3", clickable: true },
-  //   navigation: { nextEl: ".next-3", prevEl: ".prev-3" },
-  // });
-  // var swiper = new Swiper(".testimonial-slider5", {
-  //   slidesPerView: 1,
-  //   speed: 1500,
-  //   spaceBetween: 25,
-  //   loop: true,
-  //   effect: "fade",
-  //   fadeEffect: { crossFade: true },
-  //   autoplay: { delay: 2500, disableOnInteraction: false },
-  //   pagination: { el: ".franctional-pagi5", type: "fraction" },
-  //   navigation: { nextEl: ".next-3", prevEl: ".prev-3" },
-  // });
+  var swiper = new Swiper(".testimonial-slider", {
+    slidesPerView: 1,
+    speed: 1500,
+    spaceBetween: 25,
+    loop: true,
+    effect: "fade",
+    fadeEffect: { crossFade: true },
+    autoplay: { delay: 4000, disableOnInteraction: false },
+    pagination: { el: ".franctional-pagi1", type: "fraction" },
+    navigation: { nextEl: ".next-2", prevEl: ".prev-2" },
+  });
+  var swiper = new Swiper(".testimonial-slider2", {
+    slidesPerView: 1,
+    speed: 1500,
+    spaceBetween: 25,
+    effect: "fade",
+    fadeEffect: { crossFade: true },
+    autoplay: { delay: 2500, disableOnInteraction: false },
+    pagination: { el: ".franctional-pagi2", type: "fraction" },
+    navigation: { nextEl: ".next-3", prevEl: ".prev-3" },
+  });
+  var swiper = new Swiper(".testimonial-slider3", {
+    slidesPerView: 1,
+    speed: 1500,
+    spaceBetween: 25,
+    loop: true,
+    effect: "fade",
+    fadeEffect: { crossFade: true },
+    autoplay: { delay: 2500, disableOnInteraction: false },
+    pagination: { el: ".pagination-3", clickable: true },
+    navigation: { nextEl: ".next-3", prevEl: ".prev-3" },
+  });
+  var swiper = new Swiper(".testimonial-slider5", {
+    slidesPerView: 1,
+    speed: 1500,
+    spaceBetween: 25,
+    loop: true,
+    effect: "fade",
+    fadeEffect: { crossFade: true },
+    autoplay: { delay: 2500, disableOnInteraction: false },
+    pagination: { el: ".franctional-pagi5", type: "fraction" },
+    navigation: { nextEl: ".next-3", prevEl: ".prev-3" },
+  });
   var swiper = new Swiper(".event-slider", {
     slidesPerView: 1,
     speed: 1500,
