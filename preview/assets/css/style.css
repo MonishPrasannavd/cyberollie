@@ -8295,7 +8295,7 @@ footer .footer-btm .social-area li a:hover i {
 .cover-section2 .sevices-wrap .single-services {
     transition: .5s;
     border: 1px solid rgba(13, 23, 32, .08);
-    border-bottom: none;
+    /* border-bottom: none; */
     position: relative;
     display: grid;
     grid-template-columns: 10% 25% 45% 20%
@@ -8387,7 +8387,7 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 
-.cover-section2 .sevices-wrap .single-services .services-img {
+/* .cover-section2 .sevices-wrap .single-services .services-img {
     width: 276px;
     height: 336px;
     position: absolute;
@@ -8399,7 +8399,7 @@ footer .footer-btm .social-area li a:hover i {
     border: 5px solid #fff;
     overflow: hidden;
     pointer-events: none
-}
+} */
 
 @media(max-width:767px) {
     .cover-section2 .sevices-wrap .single-services .services-img {
@@ -8633,6 +8633,9 @@ footer .footer-btm .social-area li a:hover i {
     color: var(--white-color);
     transform: scaleY(0);
     transition: .4s
+}
+.project-slider1 .project-card .project-content .explore-btn{
+    white-space: normal;
 }
 
 .project-card .project-content .explore-btn svg {

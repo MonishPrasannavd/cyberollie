@@ -20,15 +20,15 @@
       value +
       "')";
   });
-  $(".services-list ul li").on({
-    mouseenter: function () {
-      $(".services-list ul li").removeClass("active");
-      $(this).addClass("active");
-      var index = $(this).index();
-      $(".services-img ul li").removeClass("active");
-      $(".services-img ul li:eq(" + index + ")").addClass("active");
-    },
-  });
+  // $(".services-list ul li").on({
+  //   mouseenter: function () {
+  //     $(".services-list ul li").removeClass("active");
+  //     $(this).addClass("active");
+  //     var index = $(this).index();
+  //     $(".services-img ul li").removeClass("active");
+  //     $(".services-img ul li:eq(" + index + ")").addClass("active");
+  //   },
+  // });
   $(".search-btn, .lang-btn").on("click", function (e) {
     let parent = $(this).parent();
     parent.find(".search-input, .lang-card").toggleClass("active");
@@ -247,41 +247,57 @@
     autoplay: { delay: 2500, disableOnInteraction: false },
     navigation: { nextEl: ".next-7", prevEl: ".prev-7" },
   });
-  $(".casestudy-slider").slick({
-    centerMode: true,
-    infinite: true,
-    centerPadding: "0",
-    autoplay: true,
-    autoplaySpeed: 2000,
-    speed: 2000,
-    variableWidth: true,
-    responsive: [
-      { breakpoint: 1200, settings: { arrows: false, slidesToShow: 5 } },
-      { breakpoint: 991, settings: { arrows: false, variableWidth: false } },
-      {
-        breakpoint: 768,
-        settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
-      },
-      {
-        breakpoint: 576,
-        settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
-      },
-      {
-        breakpoint: 480,
-        settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
-      },
-      {
-        breakpoint: 350,
-        settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
-      },
-    ],
-  });
+  // $(".casestudy-slider").slick({
+  //   centerMode: true,
+  //   infinite: true,
+  //   centerPadding: "0",
+  //   autoplay: true,
+  //   autoplaySpeed: 2000,
+  //   speed: 2000,
+  //   variableWidth: true,
+  //   responsive: [
+  //     { breakpoint: 1200, settings: { arrows: false, slidesToShow: 5 } },
+  //     { breakpoint: 991, settings: { arrows: false, variableWidth: false } },
+  //     {
+  //       breakpoint: 768,
+  //       settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
+  //     },
+  //     {
+  //       breakpoint: 576,
+  //       settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
+  //     },
+  //     {
+  //       breakpoint: 350,
+  //       settings: { arrows: false, variableWidth: false, slidesToShow: 1 },
+  //     },
+  //   ],
+  // });
   var swiper = new Swiper(".project-slider", {
     slidesPerView: "auto",
-    speed: 2000,
+    speed: 3000,
     spaceBetween: 30,
     loop: true,
-    autoplay: { delay: 3500, disableOnInteraction: false },
+    autoplay: { delay: 3000, disableOnInteraction: false },
+    breakpoints: {
+      280: { slidesPerView: 1 },
+      386: { slidesPerView: 1 },
+      576: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      992: { slidesPerView: 3 },
+      1200: { slidesPerView: 4 },
+      1400: { slidesPerView: 4 },
+    },
+  });
+  var swiper = new Swiper(".project-slider1", {
+    slidesPerView: "auto",
+    speed: 3000,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: { delay: 3000, disableOnInteraction: false },
     breakpoints: {
       280: { slidesPerView: 1 },
       386: { slidesPerView: 1 },
@@ -791,20 +807,20 @@
       $(this).find("span").css({ top: 0, left: 0 });
       $(this).find("span").css({ top: relY, left: relX });
     });
-  const serviceImgItem = document.querySelectorAll(
-    ".sevices-wrap .single-services "
-  );
-  function followImageCursor(event, serviceImgItem) {
-    const contentBox = serviceImgItem.getBoundingClientRect();
-    const dx = event.clientX - contentBox.x;
-    const dy = event.clientY - contentBox.y;
-    serviceImgItem.children[2].style.transform = `translate(${dx}px, ${dy}px)`;
-  }
-  serviceImgItem.forEach((item, i) => {
-    item.addEventListener("mousemove", (event) => {
-      setInterval(followImageCursor(event, item), 100);
-    });
-  });
+  // const serviceImgItem = document.querySelectorAll(
+  //   ".sevices-wrap .single-services "
+  // );
+  // function followImageCursor(event, serviceImgItem) {
+  //   const contentBox = serviceImgItem.getBoundingClientRect();
+  //   const dx = event.clientX - contentBox.x;
+  //   const dy = event.clientY - contentBox.y;
+  //   serviceImgItem.children[2].style.transform = `translate(${dx}px, ${dy}px)`;
+  // }
+  // serviceImgItem.forEach((item, i) => {
+  //   item.addEventListener("mousemove", (event) => {
+  //     setInterval(followImageCursor(event, item), 100);
+  //   });
+  // });
   document.addEventListener("DOMContentLoaded", function (event) {
     let offset = 50;
     let circleContainer = document.querySelector(".circle-container");
