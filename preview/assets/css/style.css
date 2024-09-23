@@ -13860,7 +13860,7 @@ footer .footer-btm .social-area li a:hover i {
     color: var(--title-color)
 } */
 
-.home6-event-section {
+/* .home6-event-section {
     overflow: hidden;
     margin-top: -250px;
     background-color: #f4f9fd;
@@ -14090,7 +14090,7 @@ footer .footer-btm .social-area li a:hover i {
     .home6-event-section .w-100 {
         width: unset !important
     }
-}
+} */
 
 .contect-section6 {
     background-image: url(../img/home6/contact-bg.png);
@@ -14241,7 +14241,7 @@ footer .footer-btm .social-area li a:hover i {
     color: #cacaca
 }
 
-.blog-details-page .post-tag-and-title {
+/* .blog-details-page .post-tag-and-title {
     margin-bottom: 15px
 }
 
@@ -14819,9 +14819,9 @@ footer .footer-btm .social-area li a:hover i {
     font-family: var(--font-montserrat);
     font-size: 14px;
     font-weight: 400
-}
+} */
 
-.blog-st-card .blog-img img {
+/* .blog-st-card .blog-img img {
     min-height: 300px;
     -o-object-fit: cover;
     object-fit: cover
@@ -14985,7 +14985,7 @@ footer .footer-btm .social-area li a:hover i {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px
-}
+} */
 
 .blog-sidebar .single-widgets {
     border: 1px solid #eee;
