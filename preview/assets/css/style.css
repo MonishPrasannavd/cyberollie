@@ -760,7 +760,7 @@ body.tt-magic-cursor #magic-cursor {
     font-weight: 400;
     margin-bottom: 0;
     max-width: 740px;
-    margin-top: -10px
+    margin-top: -10px;
 }
 
 @media(max-width:1199px) {
@@ -7641,7 +7641,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .section-title1.white h2 {
     max-width: 920px;
-    color: var(--white-color)
+    color: var(--white-color);
 }
 
 .section-title1.white h2 span {
