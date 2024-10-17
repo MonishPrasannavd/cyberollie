@@ -3396,13 +3396,13 @@ body.tt-magic-cursor #magic-cursor {
         fill: var(--white-color)
     }
 
-    .header-area.style-2 .menu-wrap .main-menu .topbar-right li a:hover {
+    /* .header-area.style-2 .menu-wrap .main-menu .topbar-right li a:hover {
         color: var(--primary-color)
     }
 
     .header-area.style-2 .menu-wrap .main-menu .topbar-right li a:hover svg {
         fill: var(--primary-color)
-    }
+    } */
 
     .header-area.style-2 .menu-wrap .main-menu .primary-btn1 {
         justify-content: center;
