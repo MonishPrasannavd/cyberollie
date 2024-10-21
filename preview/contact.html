@@ -679,13 +679,6 @@
                                         <label>Industry*</label>
                                         <select name="industryId" class="form-select" required>
                                             <option selected disabled>select industry</option>
-                                            <option value="TECH">TECH</option>
-                                            <option value="FINA">FINA</option>
-                                            <option value="LEGA">LEGA</option>
-                                            <option value="LIFE">LIFE</option>
-                                            <option value="RETA">RETA</option>
-                                            <option value="MANU">MANU</option>
-                                            <option value="PHAR">PHAR</option>
                                         </select>
                                     </div>
                                 </div>
@@ -876,6 +869,45 @@
 
 
     <script>
+        // Function to fetch industries from the API and populate the dropdown
+        async function fetchIndustries() {
+            try {
+                const response = await fetch('http://localhost:8081/api/getIndustries');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch industries');
+                }
+    
+                const responseData = await response.json();
+    
+                // Check if the API response contains the "data" array and "result" is true
+                if (responseData.result && Array.isArray(responseData.data)) {
+                    const industries = responseData.data; // Access the array of industries
+    
+                    // Get the industry dropdown element
+                    const industrySelect = document.querySelector('select[name="industryId"]');
+    
+                    // Clear existing options (except the "select industry" placeholder)
+                    industrySelect.innerHTML = '<option selected disabled>select industry</option>';
+    
+                    // Populate the dropdown with industries from the API
+                    industries.forEach(industry => {
+                        const option = document.createElement('option');
+                        option.value = industry.industryId; // Use industry ID as the value
+                        option.textContent = industry.industryName; // Use industry name for the visible text
+                        industrySelect.appendChild(option);
+                    });
+                } else {
+                    console.error('Invalid API response format:', responseData);
+                }
+    
+            } catch (error) {
+                console.error('Error fetching industries:', error);
+            }
+        }
+    
+        // Call the fetchIndustries function when the page loads
+        document.addEventListener('DOMContentLoaded', fetchIndustries);
+    
         // JavaScript to handle form submission via Fetch API
         document.getElementById('clientForm').addEventListener('submit', async function(event) {
             event.preventDefault();  // Prevent default form submission behavior
@@ -898,7 +930,7 @@
     
                 if (response.ok) {
                     alert('Client data submitted successfully!');
-                    event.target.reset();
+                    event.target.reset();  // Clear the form fields
                 } else {
                     alert('Error submitting data.');
                 }
@@ -908,6 +940,7 @@
             }
         });
     </script>
+    
 
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
