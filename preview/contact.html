@@ -653,7 +653,7 @@
                                 <div class="col-lg-6 mb-30">
                                     <div class="form-inner">
                                         <label>Name*</label>
-                                        <input type="text" name="clientName" placeholder="Enter Name" required>
+                                        <input type="text" name="clientName" placeholder="Enter Name" required pattern="[A-Za-z\s]+" title="Please enter only letters">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 mb-30">
@@ -665,7 +665,7 @@
                                 <div class="col-lg-6 mb-30">
                                     <div class="form-inner">
                                         <label>Company Name*</label>
-                                        <input type="text" name="companyName" placeholder="Enter Company Name" required>
+                                        <input type="text" name="companyName" placeholder="Enter Company Name" required pattern="[A-Za-z\s]+" title="Please enter only letters">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 mb-30">
@@ -692,7 +692,7 @@
                                 <div class="col-lg-6 mb-30">
                                     <div class="form-inner">
                                         <label>Address*</label>
-                                        <input type="text" name="address" placeholder="Enter Location" required>
+                                        <input type="text" name="address" placeholder="Enter Location" required> <!-- No validation for this field -->
                                     </div>
                                 </div>
                                 <div class="col-lg-12 mb-15">
@@ -703,11 +703,18 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-inner">
-                                        <button class="primary-btn1 btn-hover" type="submit">Submit Now</button>
+                                        <button class="primary-btn1 btn-hover" type="submit">
+                                            Submit Now
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
+                                            </svg>
+                                            <span style="top: 60.5781px; left: 31.5938px;"></span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </form>
+                        
                          
                         <!-- <form>
                             <div class="row">
