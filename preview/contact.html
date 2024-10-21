@@ -648,7 +648,68 @@
                 </div>
                 <div class="modal-body">
                     <div class="contact-form-area two">
-                        <form>
+                        <form id="clientForm">
+                            <div class="row">
+                                <div class="col-lg-6 mb-30">
+                                    <div class="form-inner">
+                                        <label>Name*</label>
+                                        <input type="text" name="clientName" placeholder="Enter Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <div class="form-inner">
+                                        <label>Work Email*</label>
+                                        <input type="email" name="workEmail" placeholder="Enter Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <div class="form-inner">
+                                        <label>Company Name*</label>
+                                        <input type="text" name="companyName" placeholder="Enter Company Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <div class="form-inner">
+                                        <label>Work Mobile Number</label>
+                                        <input type="text" name="workMobileNumber" placeholder="+920- 5566 **** ****">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <div class="form-inner">
+                                        <label>Industry*</label>
+                                        <select name="industryId" class="form-select" required>
+                                            <option selected disabled>select industry</option>
+                                            <option value="TECH">TECH</option>
+                                            <option value="FINA">FINA</option>
+                                            <option value="LEGA">LEGA</option>
+                                            <option value="LIFE">LIFE</option>
+                                            <option value="RETA">RETA</option>
+                                            <option value="MANU">MANU</option>
+                                            <option value="PHAR">PHAR</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                    <div class="form-inner">
+                                        <label>Address*</label>
+                                        <input type="text" name="address" placeholder="Enter Location" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb-15">
+                                    <div class="form-inner">
+                                        <label>Write Your Message*</label>
+                                        <textarea name="message" placeholder="What’s on your mind"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-inner">
+                                        <button class="primary-btn1 btn-hover" type="submit">Submit Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                         
+                        <!-- <form>
                             <div class="row">
                                 <div class="col-lg-6 mb-30">
                                     <div class="form-inner">
@@ -713,7 +774,7 @@
                                 </div>
                             </div>
                     </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
@@ -807,7 +868,39 @@
 
 
 
-
+    <script>
+        // JavaScript to handle form submission via Fetch API
+        document.getElementById('clientForm').addEventListener('submit', async function(event) {
+            event.preventDefault();  // Prevent default form submission behavior
+    
+            // Create a FormData object to capture form input values
+            const formData = new FormData(event.target);
+    
+            // Convert FormData to JSON format
+            const data = Object.fromEntries(formData.entries());
+    
+            // Send POST request to the backend API
+            try {
+                const response = await fetch('http://localhost:8081/api/clients/add', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+    
+                if (response.ok) {
+                    alert('Client data submitted successfully!');
+                    event.target.reset();
+                } else {
+                    alert('Error submitting data.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while submitting data.');
+            }
+        });
+    </script>
 
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
