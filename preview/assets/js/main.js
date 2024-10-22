@@ -292,22 +292,6 @@
       1400: { slidesPerView: 4 },
     },
   });
-  var swiper = new Swiper(".project-slider1", {
-    slidesPerView: "auto",
-    speed: 3000,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: { delay: 3000, disableOnInteraction: false },
-    breakpoints: {
-      280: { slidesPerView: 1 },
-      386: { slidesPerView: 1 },
-      576: { slidesPerView: 1 },
-      768: { slidesPerView: 2 },
-      992: { slidesPerView: 3 },
-      1200: { slidesPerView: 3 },
-      1400: { slidesPerView: 4 },
-    },
-  });
   var swiper = new Swiper(".cover-slider-with-progress", {
     speed: 1500,
     spaceBetween: 30,

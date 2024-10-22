@@ -760,7 +760,7 @@ body.tt-magic-cursor #magic-cursor {
     font-weight: 400;
     margin-bottom: 0;
     max-width: 740px;
-    margin-top: -10px
+    margin-top: -10px;
 }
 
 @media(max-width:1199px) {
@@ -3396,13 +3396,13 @@ body.tt-magic-cursor #magic-cursor {
         fill: var(--white-color)
     }
 
-    .header-area.style-2 .menu-wrap .main-menu .topbar-right li a:hover {
+    /* .header-area.style-2 .menu-wrap .main-menu .topbar-right li a:hover {
         color: var(--primary-color)
     }
 
     .header-area.style-2 .menu-wrap .main-menu .topbar-right li a:hover svg {
         fill: var(--primary-color)
-    }
+    } */
 
     .header-area.style-2 .menu-wrap .main-menu .primary-btn1 {
         justify-content: center;
@@ -7641,7 +7641,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .section-title1.white h2 {
     max-width: 920px;
-    color: var(--white-color)
+    color: var(--white-color);
 }
 
 .section-title1.white h2 span {
@@ -8634,7 +8634,7 @@ footer .footer-btm .social-area li a:hover i {
     transform: scaleY(0);
     transition: .4s
 }
-.project-slider1 .project-card .project-content .explore-btn{
+.project-slider2 .project-card .project-content .explore-btn{
     white-space: normal;
 }
 
@@ -11843,7 +11843,7 @@ footer .footer-btm .social-area li a:hover i {
 .contact-form-area.three .upload-file-area .custom-upload-field .custom-upload,
 .contact-form-area.two .upload-file-area .custom-upload-field .custom-upload {
     padding-left: 30px;
-    color: var(--white-color)
+    color: #000;
 }
 
 .contact-form-area.three .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button,
