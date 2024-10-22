@@ -11843,7 +11843,7 @@ footer .footer-btm .social-area li a:hover i {
 .contact-form-area.three .upload-file-area .custom-upload-field .custom-upload,
 .contact-form-area.two .upload-file-area .custom-upload-field .custom-upload {
     padding-left: 30px;
-    color: var(--white-color)
+    color: #000;
 }
 
 .contact-form-area.three .upload-file-area .custom-upload-field .custom-upload::-webkit-file-upload-button,
