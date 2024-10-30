@@ -292,7 +292,7 @@
       1400: { slidesPerView: 4 },
     },
   });
-  var swiper = new Swiper(".project-slider2", {
+  var swiper = new Swiper(".project-slider1", {
     slidesPerView: "auto",
     speed: 3000,
     spaceBetween: 30,
@@ -301,7 +301,7 @@
     breakpoints: {
       280: { slidesPerView: 1 },
       386: { slidesPerView: 1 },
-      576: { slidesPerView: 1 },
+      576: { slidesPerView: 2 },
       768: { slidesPerView: 2 },
       992: { slidesPerView: 3 },
       1200: { slidesPerView: 3 },
