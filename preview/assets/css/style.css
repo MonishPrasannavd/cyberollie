@@ -7032,7 +7032,8 @@ body.tt-magic-cursor #magic-cursor {
 
 footer {
     background-color: #0a141d;
-    padding-top: 100px
+    padding-top: 100px;
+    padding-bottom: 45px;
 }
 
 /* footer .footer-widget .subscribed-area h2 {
@@ -7240,7 +7241,7 @@ footer .footer-menu-wrap {
 @media(max-width:991px) {
     footer .footer-menu-wrap {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         border: none
     }
 }
@@ -7419,6 +7420,47 @@ footer .footer-btm .social-area li a:hover {
 }
 
 footer .footer-btm .social-area li a:hover i {
+    color: var(--white-color)
+}
+footer .footer-menu-wrap .social-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+@media(max-width:576px){
+    footer .footer-menu-wrap {
+        justify-content: center;
+    }
+    footer .footer-menu-wrap .social-area {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+footer .footer-menu-wrap .social-area li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 26px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    transition: .35s
+}
+
+footer .footer-menu-wrap .social-area li a i {
+    transition: .35s;
+    font-size: 16px;
+    color: var(--white-color)
+}
+
+footer .footer-menu-wrap .social-area li a:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color)
+}
+
+footer .footer-menu-wrap .social-area li a:hover i {
     color: var(--white-color)
 }
 
