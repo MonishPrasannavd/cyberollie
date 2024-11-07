@@ -38,7 +38,7 @@
   $(document).on("click", ".moreless-button", function () {
     $(".moretext").slideToggle();
     if ($(".moreless-button").text() == "Read More") {
-      $(this).text("Read less");
+      $(this).text("Read Less");
       $(this).addClass("bi bi-chevron-up");
       $(this).removeClass("bi bi-chevron-down");
     } else {
