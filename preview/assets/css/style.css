@@ -7,6 +7,7 @@
     --white-color: #fff;
     --paragraph-color: #566064;
     --primary-color: #2E448D;
+    --secondary-color:#da2121;
     --right-margin:15rem;
 }
 
@@ -492,7 +493,7 @@ video {
     background: 0 0;
     position: fixed;
     right: 30px;
-    bottom: 55px;
+    bottom: 150px;
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -519,7 +520,7 @@ video {
     text-align: center;
     line-height: 40px;
     font-size: 28px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     left: 0;
     top: 0;
     height: 40px;
@@ -534,7 +535,7 @@ video {
     position: absolute;
     font-family: bootstrap-icons;
     content: "\f145";
-    color: var(--primary-color);
+    color: var(--secondary-color);
     transition: all 200ms linear
 }
 
@@ -7032,7 +7033,13 @@ body.tt-magic-cursor #magic-cursor {
 
 footer {
     background-color: #0a141d;
-    padding-top: 100px
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+@media(max-width:576px){
+    footer {
+        padding-bottom: 0px;
+    }
 }
 
 /* footer .footer-widget .subscribed-area h2 {
@@ -7240,7 +7247,7 @@ footer .footer-menu-wrap {
 @media(max-width:991px) {
     footer .footer-menu-wrap {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         border: none
     }
 }
@@ -7419,6 +7426,47 @@ footer .footer-btm .social-area li a:hover {
 }
 
 footer .footer-btm .social-area li a:hover i {
+    color: var(--white-color)
+}
+footer .footer-menu-wrap .social-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+@media(max-width:576px){
+    footer .footer-menu-wrap {
+        justify-content: center;
+    }
+    footer .footer-menu-wrap .social-area {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+footer .footer-menu-wrap .social-area li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 26px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    transition: .35s
+}
+
+footer .footer-menu-wrap .social-area li a i {
+    transition: .35s;
+    font-size: 16px;
+    color: var(--white-color)
+}
+
+footer .footer-menu-wrap .social-area li a:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color)
+}
+
+footer .footer-menu-wrap .social-area li a:hover i {
     color: var(--white-color)
 }
 
@@ -18488,3 +18536,22 @@ footer .accordion .menu-container ul li a:hover {
     font-size: 17px !important;
     vertical-align: -.25em;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #DFE7EE; /* Makes the track transparent */
+    border-radius: 10px; /* Rounds the corners */
+}
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
