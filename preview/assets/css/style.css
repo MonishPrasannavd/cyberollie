@@ -2498,13 +2498,13 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .header-area.style-2 .header-logo img {
-    width: 214px;
+    width: 250px;
     max-width: unset;
 }
 
 @media(max-width:1399px) {
     .header-area.style-2 .header-logo img {
-        width: 214px;
+        width: 250px;
         max-width: unset;
     }
 }
@@ -2524,13 +2524,7 @@ body.tt-magic-cursor #magic-cursor {
 
 @media(max-width:1399px) {
     .header-area.style-2 .menu-wrap {
-        padding: 0 10px 0 20px
-    }
-}
-
-@media(max-width:1399px) {
-    .header-area.style-2 .menu-wrap {
-        padding: 0 10px 0 15px
+        padding: 0px 10px 0px 0px
     }
 }
 
@@ -2542,8 +2536,9 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .header-area.style-2 .menu-wrap .header-logo {
-    background-color: transparent;
-    padding: 0
+    /* background-color: transparent; */
+    background-color: rgba(217, 217, 217, .2);
+    padding: 7px 10px
 }
 
 .header-area.style-2 .menu-wrap .nav-right {
@@ -7262,7 +7257,7 @@ footer .footer-menu-wrap .footer-logo {
 }
 
 footer .footer-menu-wrap .footer-logo img {
-    max-width: 214px
+    max-width: 250px
 }
 
 @media(max-width:1399px) {
@@ -9612,6 +9607,7 @@ footer .footer-menu-wrap .social-area li a:hover i {
 
 .banner3-section #home3-banner-bg {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/home2/banner-img-01.jpg);
+    /* background: url(../img/home2/banner-img-01.jpg); */
     height: 100vh;
     min-height: 600px;
     background-size: cover !important;
