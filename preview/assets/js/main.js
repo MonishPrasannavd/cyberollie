@@ -16,10 +16,11 @@
   $(".banner-hover").on("mouseenter", function () {
     var value = $(this).attr("data-src");
     document.getElementById("home3-banner-bg").style.background =
-      "linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%) ,url('" +
+      "linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%) ,url('" +
       value +
       "')";
   });
+  // linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%) ,
   // $(".services-list ul li").on({
   //   mouseenter: function () {
   //     $(".services-list ul li").removeClass("active");
