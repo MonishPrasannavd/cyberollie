@@ -9636,7 +9636,7 @@ footer .footer-menu-wrap .social-area li a:hover i {
     min-height: 600px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position: center
+    background-position: center !important;
 }
 .flex-main-fill{
     flex: 1 1 auto !important;
@@ -9645,7 +9645,8 @@ footer .footer-menu-wrap .social-area li a:hover i {
 
 @media(max-width:767px) {
     .banner3-section #home3-banner-bg {
-        min-height: 560px;
+        /* min-height: 560px; */
+        min-height: 410px;
         height: unset
     }
 }
