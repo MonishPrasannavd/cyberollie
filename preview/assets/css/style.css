@@ -70,7 +70,7 @@ p {
 
 a,
 a:hover {
-    text-decoration: none
+    text-decoration: none !important;
 }
 
 input,
@@ -730,7 +730,11 @@ body.tt-magic-cursor #magic-cursor {
 @media(max-width:991px) {
     .section-title1 {
         flex-wrap: wrap;
-        gap: 10px
+        gap: 10px;
+        padding-left: 20px;
+    }
+    .about-content .primary-btn1{
+        margin-left: 20px;
     }
 }
 
@@ -1181,7 +1185,8 @@ body.tt-magic-cursor #magic-cursor {
     /* color: var(--white-color); */
     color: #FF4D00;
     font-size: 14px;
-    transition: .35s
+    transition: .35s;
+    margin-bottom: 0px;
 }
 
 .topbar-area.style-2 .topbar-right li p svg {
@@ -3192,7 +3197,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .header-area.style-2 .menu-wrap .main-menu ul>li.active>a {
-    border-color: var(--white-color)
+    border-color: var(--white-color);
 }
 
 @media(max-width:991px) {
@@ -9547,7 +9552,11 @@ footer .footer-menu-wrap .social-area li a:hover i {
 
 @media(max-width:576px) {
     .contact-section2 .contact-content h2 {
-        font-size: 40px
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .contact-section2 .banner-btn{
+        margin-left: 30px;
     }
 }
 
@@ -9760,7 +9769,8 @@ footer .footer-menu-wrap .social-area li a:hover i {
     font-family: var(--font-marcellus);
     font-size: 40px;
     font-weight: 500;
-    transition: .35s
+    transition: .35s;
+    text-decoration: none;
 }
 
 @media(max-width:1699px) {
@@ -18488,10 +18498,11 @@ footer .footer-menu-wrap .social-area li a:hover i {
     }
 } 
 .accordion{
-    --bs-accordion-bg: transparent !important;
+    
     border: none !important;
     color: #FFF !important;
     margin: 0px !important;
+    background-color: transparent !important;
 }
 .accordion-button:not(.collapsed){
     background-color: transparent !important;
@@ -18522,6 +18533,7 @@ footer .footer-menu-wrap .social-area li a:hover i {
     font-family: var(--font-marcellus);
     font-weight: 400;
     justify-content: space-between;
+    background: transparent !important;
 }
 .accordion-button::after{
     display: none !important;
@@ -18529,6 +18541,7 @@ footer .footer-menu-wrap .social-area li a:hover i {
 .accordion-item{
     color: #FFF !important;
     border: none !important;
+    background: transparent;
 }
 footer .accordion .menu-container ul li a {
     color: #cacaca;
